@@ -1,6 +1,40 @@
-*{
-  padding:0;
-  margin:0;
+* {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-} 
+  color: #fff;
+}
 
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background-color: #1a1a1a;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.8rem 0.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(123, 53, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+  border-radius: 3rem;
+  border:none;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 84, 232, 1) 0%,
+    rgba(123, 53, 222, 1) 100%
+  );
+}
