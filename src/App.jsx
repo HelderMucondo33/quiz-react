@@ -3,7 +3,7 @@ import { QuizContext } from "./context/quiz";
 
 import "./App.css";
 import Welcome from "./components/Welcome";
-import Questions from "./components/questions";
+import Questions from "./components/Questions";
 
 function App() {
 
